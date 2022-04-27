@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+.lateral{
+	background-color: #042039;
+	bottom: 0;
+	left: 0;
+	padding: 1em;
+	position: fixed;
+	top: 0;
+	width: 350px;
+}
+
+.perfil_circulo{
+	border-radius: 50%;
+	height: 50px;
+	overflow: hidden;
+	margin: 0;
+	width: 50px;
+}
+
+.perfil_foto{
+	width: 100%;
+}
+
+.perfil_nombres{
+	color: #fff;
+	font-size: 20px;
+	margin-left: .5em;
+	width: 250px;
+}
+
+.perfil_nombres, .perfil_circulo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.informacion{
+	color:#FCF8B6 ;
+	position: absolute;
+	bottom: 1em;
+}
+
+.informacion_titulo{
+	font-size: 18px;
+}
+
+.habilidades{
+	padding: 0;
+}
+
+.habilidad{
+	background-color:#ED7625 ;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: .5em;
+}
+
+.habilidad_proyecto{
+	background: color #ED7625;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: .5em;
+}
+
+.proyectos{
+    background-color: #F6F6F6;
+	margin-left: 350px;
+	padding: 1em;
+	display: table;
+}
+
+.proyecto{
+	display: table-cell;
+	width: 50%;
+	padding: 1em;
+}
+
+.proyecto__imagen{
+	width: 100%;
+}
+
+.proyecto_titulo{
+	color:#5531A0;
+	font-size: 18px;
+}
+
+.proyecto_descripcion{
+	color: grey;
+}
+
+.enlace{
+	background-color:#ED7625 ;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: .01em;
+}
