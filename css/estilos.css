@@ -106,3 +106,50 @@ html{
 	text-transform: uppercase;
 	padding: .01em;
 }
+
+.cuerpo{
+	width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+	
+	.informacion{
+		position: relative;
+	}
+	
+	.lateral{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	
+	.proyectos{
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.cuerpo{
+		width: 100%;
+	}
+
+	.informacion{
+		position: relative;
+	}
+
+	.perfil_nombres{
+		position: relative;
+	}
+	
+	.proyecto{
+		width: 100%;
+		display: block;
+	}
+
+	.proyectos{
+		margin-left: 0;
+		width: 100%;
+	}
+}
